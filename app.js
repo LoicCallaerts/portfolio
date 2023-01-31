@@ -31,9 +31,12 @@ typewriter
 .typeString('Je me présente c\'est Loïc ')
 .pauseFor(300)
 .typeString('<strong>, développeur full-stack</strong>')
-.pauseFor(1000)
-// .deleteChars(13)
-.typeString()
+.pauseFor(500)
+.deleteChars(22)
+.typeString('<strong> traducteur</strong>')
+.pauseFor(500)
+.deleteChars(10)
+.typeString('<strong> graphiste</strong>')
 .start()
 
 // Animation Contact
