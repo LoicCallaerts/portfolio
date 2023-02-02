@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "roboto", sans-serif;
   background: #f1f1f1;
 }
 
@@ -73,7 +73,7 @@ body {
               -26px -26px 53px #3d3d3d;
 }
 .cercle-portrait img {
-  width: 100px;
+  width: 125px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -199,7 +199,7 @@ body {
 }
 h1{
   font-size: 90px;
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   margin: 0 60px;
   padding-top: 210px;
 }
@@ -419,12 +419,13 @@ cursor: pointer;
 }
 .fond-forme {
   background: #485563;
-  background-image: linear-gradient(to right, #29323c, #485563);
+  background-image: linear-gradient(to right,  #1C1C1E, #4D4D4D);
   width: 2300px;
   height: 1000px;
   position: absolute;
   transform: rotate(-45deg) translateX(100px) translateY(-15px);
   z-index: -1;
+  filter: drop-shadow(50px 25px 40px #4444dd);
 }
 
 .titre-pres {
@@ -461,6 +462,11 @@ cursor: pointer;
 }
 .pres-gauche p {
   text-align: justify;
+  font-size: 20px;
+}
+
+.titre-pres,.pres-gauche h3, .pres-gauche p{
+  text-shadow: rgba(0, 150, 135, 0.40) 1px 0 10px;
 }
 
 .pres-droite {
@@ -474,12 +480,16 @@ cursor: pointer;
   padding: 10px 0 50px 110px;
 }
 .chiffre-style {
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 40px;
 }
 .txt-liste {
   font-size: 27px;
   display: inline;
+}
+
+.chiffre-style, .txt-liste{
+  text-shadow: rgba(0, 150, 135, 0.4) 1px 0 10px ;
 }
 
 /* Medias Presentation */
@@ -581,11 +591,11 @@ cursor: pointer;
 .item{
   margin: 20px;
   width: 420px;
-  height: 400px;
+  min-height: 400px;
   background: #f0f2f0;
   color: #333;
   transition: transform 0.3s ease-out;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px #7E57C2;
 }
 .item:hover{
   transform: translateY(-5px);
@@ -596,6 +606,8 @@ cursor: pointer;
 }
 .item p{
   padding: 10px 10px 0;
+  text-overflow: ellipsis;
+
 }
 .cont-img-port{
   width: 100%;
@@ -717,28 +729,32 @@ cursor: pointer;
   border-radius: 5px;
 }
 .b1{
-  width: 90%;
+  width: 80%;
 }
 .b2{
   width: 75%;
   background: rgb(243, 237, 146);
 }
 .b3{
-  width: 85%;
+  width: 65%;
   background: rgb(243, 237, 146);
 }
 .b4{
   width: 80%;
 }
 .b5{
-  width:60%;
+  width:70%;
 }
 .b6{
-  width: 71%;
+  width: 85%;
   background: rgb(243, 237, 146); 
 }
 .label-skill{
   font-size: 24px;
+}
+
+.titre-exp, .label-skill, .number-skill{
+  text-shadow: #7E57C2 1px 0 10px ;
 }
 
 /* Media range */
